@@ -19,13 +19,13 @@
 .three{
 	background:blue;;
 }
-#holder{
+.holder{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flax-end;
+	justify-content: space-between;
 	margin-top: 240px;
 }
-#holder > div {
+.holder > div {
 	width: 100px;
 	height: 100px;
 	font-size: 50px;
